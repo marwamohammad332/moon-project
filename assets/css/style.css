@@ -866,5 +866,112 @@ input{
     .footer .continer{
         width: 95%;
     }
+}
+/*===========About page============*/
+/*hero part*/
+@media screen and ( min-width:0 ) and ( max-width:600px ){
+    .continer{
+        width: 85%;
+    }
+}
+@media screen and ( min-width:0 ) and ( max-width:460px ){
+    .hero2 p{
+        width: 80%;
+    }
+}
+@media screen and ( min-width:461px ) and ( max-width:860px ){
+    .hero2 p{
+        width: 70%;
+    }
+}
 
+.history p{
+max-width: 435px;
+}
+
+@media screen and ( min-width:0 ) and ( max-width:450px ){
+    .history .continer{
+        width: 100%;
+    }
+    .history_row{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .history p{
+        width: 70%
+    }
+    .pic1910{
+        order: 0;
+    }
+    .tex1910{
+        order: 1;
+        min-height: 274px;
+    } 
+    .pic1990{
+        order: 2;
+    }
+    .tex1990{
+        order: 3;
+        min-height: 274px;
+    }
+    .pic2010{
+        order: 4;
+    }
+    .tex2010{
+        order: 5;
+        min-height: 274px;
+    }
+}
+@media screen and ( min-width:451px) and ( max-width:900px ){
+    .history .continer{
+        width: 80%;
+    }
+    .history_row{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .history p{
+        width: 70%
+    }
+    .pic1910{
+        order: 0;
+    }
+    .tex1910{
+        order: 1;
+        min-height: 274px;
+    } 
+    .pic1990{
+        order: 2;
+    }
+    .tex1990{
+        order: 3;
+        min-height: 274px;
+    }
+    .pic2010{
+        order: 4;
+    }
+    .tex2010{
+        order: 5;
+        min-height: 274px;
+    }
+}
+
+@media screen and ( min-width:0 ) and ( max-width:450px ){
+    .work .continer{
+        width: 100%;
+    }
+    .work_row{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and ( min-width:451px) and ( max-width:800px ){
+    .work .continer{
+        width: 80%;
+    }
+    .work_row{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and ( min-width:801px) and ( max-width:1000px){
+    .work .continer{
+        width: 85%;
+    }
 }
