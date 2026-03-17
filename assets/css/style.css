@@ -975,3 +975,17 @@ max-width: 435px;
         width: 85%;
     }
 }
+.team:hover .team_dettils{
+    opacity: 1;
+}
+.team_dettils{
+    transition: 0.8s;
+}
+@media screen and (min-width:0) and (max-width:1200px) {
+    .team_row {
+        grid-template-columns: none;
+        grid-auto-flow: column;
+        grid-auto-columns: 200px;
+        overflow-x: auto;
+    }
+}
