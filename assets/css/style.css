@@ -12,8 +12,8 @@ html {
 }
 
 .header {
-    padding: 21.84px 0;
-    position: fixed;
+    padding: 10px 0;
+   position: fixed;
     width: 100%;
     z-index: 9;
     background-color: whitesmoke;
@@ -988,4 +988,44 @@ max-width: 435px;
         grid-auto-columns: 200px;
         overflow-x: auto;
     }
+}
+.bg-text{
+    left:13.4%;
+    top:0%
+}
+@media screen and (min-width:0) and (max-width:768px) {
+    .contact_hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg-img {
+        height: 400px;
+        width: 100%;
+    }
+
+    .bg-text {
+        position: static;
+        width: 100%;
+        height: 400px;
+    }
+    .get_in_touch p{
+        width: 90%;
+    }
+    .form_part1{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.contact_dettils .continer{
+    width: 67%;
+}
+@media screen and (min-width:0) and (max-width:768px) {
+
+    .contact_dettils .continer{
+        width: 90%;
+    }
+}
+
+.contact_dettils button::after{
+    content: "\2192";
 }
