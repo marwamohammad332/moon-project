@@ -875,12 +875,12 @@ input{
     }
 }
 @media screen and ( min-width:0 ) and ( max-width:460px ){
-    .hero2 p{
+    .about_hero p{
         width: 80%;
     }
 }
 @media screen and ( min-width:461px ) and ( max-width:860px ){
-    .hero2 p{
+    .about_hero p{
         width: 70%;
     }
 }
@@ -1028,4 +1028,51 @@ max-width: 435px;
 
 .contact_dettils button::after{
     content: "\2192";
+}
+@media screen and ( min-width:0 ) and ( max-width:700px ){
+    .blog_hero{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blog_text{
+        margin-bottom: 55px;
+    }
+}
+
+.divider{
+    height:1px ;
+    width: 22.84px;
+}
+.card_details img{
+    width: 24px;
+    height: 24px;
+}
+.search_input img{
+    height: 20px;
+    width: 20px;
+}
+
+@media screen and ( min-width:0 ) and ( max-width:700px ){
+    .blog_content .continer{
+        width: 80%;
+    }
+    .blog_part{
+        flex-direction: column;
+    }
+    .left_content{
+        flex-direction: column;
+    }
+    .pagination{
+        order: 1;
+    }
+    .column{
+        width: 100%;
+    }
+    .search_input{
+        display: none;
+    }
+}
+@media screen and ( min-width:701px ) and ( max-width:870px ){
+    .blog_content .continer{
+        width: 95%;
+    }
 }

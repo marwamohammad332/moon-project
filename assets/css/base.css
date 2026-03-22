@@ -131,6 +131,24 @@ input{
 .gp-6{
     gap: calc(var(--spacer) * 6);
 }
+.gp20-1{
+    gap: calc(var(--spacer2) * 1);
+}
+.gp20-2{
+    gap: calc(var(--spacer2) * 2);
+}
+.gp20-3{
+    gap: calc(var(--spacer2) * 3);
+}
+.gp20-4{
+    gap: calc(var(--spacer2) * 4);
+}
+.gp20-5{
+    gap: calc(var(--spacer2) * 5);
+}
+.gp20-6{
+    gap: calc(var(--spacer2) * 6);
+}
 .f-wrap{
     flex-wrap: wrap;
 }
@@ -1017,11 +1035,14 @@ background-color: var(--primarycolor);
 .index1{
     z-index: 1;
 }
-.card{
+.card_details{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap:10px;
+    align-items: self-start;
+    gap:24px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    cursor: pointer;
 }
 
