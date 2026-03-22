@@ -14,6 +14,7 @@ html {
 .header {
     padding: 10px 0;
    position: fixed;
+   top: 0;
     width: 100%;
     z-index: 9;
     background-color: whitesmoke;
@@ -1074,5 +1075,107 @@ max-width: 435px;
 @media screen and ( min-width:701px ) and ( max-width:870px ){
     .blog_content .continer{
         width: 95%;
+    }
+}
+.color_box{
+    width: 15px;
+    height: 15px;
+}
+input:checked + .color_box {
+    border: 2px solid var(--Primarycolor);
+}
+input[type="checkbox"]{
+    accent-color: #826f66b5;
+}
+.right_column .pagination img{
+    width: 200px;
+}
+.filter_icon img{
+    width: 15px;
+}
+@media screen and ( min-width:0 ) and ( max-width:300px ){
+    .shop_content .continer{
+        width: 80%;
+    }
+    .left_column{
+        display: none;
+    }
+    .shop_row{
+        flex-direction: column;
+    }
+    .filter{
+        justify-content: space-between;
+    }
+    .filter_icon{
+        display: flex;
+    }
+    .hidde_titel{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .items_row{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .pagination{
+        justify-content: center;
+    }
+}
+@media screen and ( min-width:301px ) and ( max-width:600px ){
+    .shop_content .continer{
+        width: 90%;
+    }
+    .left_column{
+        display: none;
+    }
+    .shop_row{
+        flex-direction: column;
+    }
+    .filter{
+        justify-content: space-between;
+    }
+    .filter_icon{
+        display: flex;
+    }
+    .hidde_titel{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .items_row{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    .pagination{
+        justify-content: center;
+    }
+}
+@media screen and ( min-width:601px ) and ( max-width:750px ){
+    .shop_content .continer{
+        width: 90%;
+    }
+    .left_column{
+        display: none;
+    }
+    .shop_row{
+        flex-direction: column;
+    }
+    .filter{
+        justify-content: space-between;
+    }
+    .filter_icon{
+        display: flex;
+    }
+    .hidde_titel{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .items_row{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+    .pagination{
+        justify-content: center;
+    }
+}
+@media screen and ( min-width:751px ) and ( max-width:850px ){
+    .shop_content .continer{
+        width: 90%;
     }
 }

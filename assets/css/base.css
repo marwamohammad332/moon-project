@@ -245,6 +245,9 @@ flex-direction:column-reverse;
 .d-block{
     display: block;
 }
+.d_inline_bolck{
+    display: inline-block;
+}
 .d-hidden{
     display: none;
 }
@@ -437,6 +440,9 @@ flex-direction:column-reverse;
 }
 .mb-5{
     margin-bottom:calc( var(--spacer) * 5 );
+}
+.mb-6{
+    margin-bottom:calc( var(--spacer) * 6 );
 }
 .mtb-1{
     margin-top: var(--spacer);
