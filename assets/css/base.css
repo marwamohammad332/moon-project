@@ -38,6 +38,13 @@ justify-content: space-between;
 .point{
     cursor: pointer;
 }
+
+.hand{
+    cursor:grab;
+}
+.cursor{
+    cursor: auto;
+}
 nav{
     list-style-type: none;
 }
@@ -1059,5 +1066,8 @@ background-color: var(--primarycolor);
     margin-top: 24px;
     margin-bottom: 32px;
     cursor: pointer;
+    padding: 5px;
 }
-
+.trans{
+    transition: all 1s;
+}

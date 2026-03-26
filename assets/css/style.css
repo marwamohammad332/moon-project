@@ -225,6 +225,11 @@ html {
     font-size: clamp(7px, 2vw, 14px);
     font-weight: 600;
     line-height: 20px;
+    transition: all 1s;
+}
+.hero_text a:hover{
+    background-color:#826F66;
+    color:white;
 }
 
 @media screen and (min-width:0) and (max-width:768px) {
@@ -382,13 +387,13 @@ img {
     letter-spacing: 1.3px;
     text-transform: uppercase;
     cursor: pointer;
-    transition: color 1s, background-color 1s;
+    transition: color 1s, background-color 1s; padding: 5px;
 
 }
 
 .introduction a:hover {
-    color: #826F66;
-    background-color: rgb(50, 50, 50);
+    color: white;
+    background-color:#826F66;
 }
 
 @media screen and (min-width:0) and (max-width:690px) {
@@ -755,8 +760,8 @@ input{
 
 }
 .signup a:hover{
-    color: #826f66b5;
-    background-color: black;
+    color: white;
+    background-color:#826F66;
 }
 @media screen and ( min-width:0 ) and ( max-width:300px ){
     input{
@@ -820,6 +825,11 @@ input{
     font-size: x-small;
     text-transform: uppercase;
     margin-top: 8px;
+    transition: all 1s;
+}
+.Get_started a:hover{
+    background-color: var(--secondarecolor);
+    color: var(--Primarycolor);
 }
 .links{
     display:flex;
@@ -838,6 +848,7 @@ input{
     font-size: x-small;
     font-family: var(--Primaryfontfamily);
     color: var(--secondarecolor);
+    cursor: pointer;
 }
 .link_list{
     width: fit-content;
@@ -856,6 +867,7 @@ input{
     font-size: x-small;
     font-family: var(--Primaryfontfamily);
     padding: 32px 0;
+    cursor: pointer;
 }
 @media screen and ( min-width:0 ) and ( max-width:700px ){
     .footer .continer{
@@ -1017,7 +1029,10 @@ max-width: 435px;
     left:13.4%;
     top:0%
 }
-
+.send_mesg:hover{
+    color: var(--Primarycolor);
+    background-color: var(--secondarecolor);
+}
 @media screen and (min-width:0) and (max-width:768px) {
     .contact_hero {
         display: flex;
@@ -1077,7 +1092,21 @@ max-width: 435px;
     height: 20px;
     width: 20px;
 }
+.card:hover{
+    background-color: #826f66a4;
+}
+.side_row:hover{
+    background-color: #826f66a4;
+}
 
+.category nav li:hover{
+    background-color: #826f66a4;
+    color: white;
+}
+.tags_post span:hover{
+    background-color: #826f66a4;
+    color: white;
+}
 @media screen and ( min-width:0 ) and ( max-width:700px ){
     .blog_content .continer{
         width: 80%;
@@ -1229,8 +1258,22 @@ input[type="checkbox"]{
     width: 15px;
     height: 20px;
 }
-
-
+.other_imgs img:hover {
+    opacity: 0.5;
+}
+.quantity button:hover{
+    background-color: #826f6677;
+}
+.addcart:hover {
+   opacity: 0.7;
+}
+.buy_row button:hover{
+    background-color:#3a3845be;
+    color: white;
+}
+.share_icons img:hover{
+    opacity: 0.4;
+}
 @media screen and ( min-width:0 ) and ( max-width:700px ){
     .continer{
         width: 80%;
