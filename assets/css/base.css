@@ -909,6 +909,9 @@ font-size:clamp(15px, 2vw, 24px);
 .hover-col{
     color: var(--color-hover);
 }
+.bg-non{
+    background: none;
+}
 .p-bground{
 background-color: var(--primarycolor);
 }

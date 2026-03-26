@@ -889,7 +889,7 @@ input{
 /*===========About page============*/
 /*hero part*/
 @media screen and ( min-width:0 ) and ( max-width:600px ){
-    .continer{
+    .about_hero .continer{
         width: 85%;
     }
 }
@@ -994,12 +994,14 @@ max-width: 435px;
         width: 85%;
     }
 }
+
 .team:hover .team_dettils{
     opacity: 1;
 }
 .team_dettils{
     transition: 0.8s;
 }
+
 @media screen and (min-width:0) and (max-width:1200px) {
     .team_row {
         grid-template-columns: none;
@@ -1008,10 +1010,14 @@ max-width: 435px;
         overflow-x: auto;
     }
 }
+
+/*<============ contact page ==================>*/
+
 .bg_text{
     left:13.4%;
     top:0%
 }
+
 @media screen and (min-width:0) and (max-width:768px) {
     .contact_hero {
         display: flex;
@@ -1048,6 +1054,8 @@ max-width: 435px;
 .contact_dettils button::after{
     content: "\2192";
 }
+
+/*<================== blog page ====================>*/
 @media screen and ( min-width:0 ) and ( max-width:700px ){
     .blog_hero{
         grid-template-columns: repeat(1,1fr);
@@ -1095,6 +1103,7 @@ max-width: 435px;
         width: 95%;
     }
 }
+/*<================== shop page ============>*/
 .color_box{
     width: 15px;
     height: 15px;
@@ -1198,15 +1207,49 @@ input[type="checkbox"]{
         width: 90%;
     }
 }
-
+/*<=============product page ============>*/
+.firstimg{
+    height:100%;
+    object-fit: cover;
+}
 .other_imgs img{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 100%;
 }
 .other_imgs{
     overflow-x: auto;
 }
+.quantity{
+    height: 49.33px;
+}
+.buy_row button{
+    height: 49.33px;
+}
 .share_icons img{
-    width: 10px;
+    width: 15px;
     height: 20px;
 }
+
+
+@media screen and ( min-width:0 ) and ( max-width:700px ){
+    .continer{
+        width: 80%;
+    }
+    .product_row{
+        flex-direction: column;
+    }
+    .product_imgs{
+        width: 100%;
+    }
+    .product_details{
+        width: 100%;
+    }
+}
+
+@media screen and ( min-width:701px ) and ( max-width:1035px ){
+    .continer{
+        width: 85%;
+    }
+}
+
+/*<==========================   =======================>*/
