@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="continer">
+            <div class="row">
+                <div class="menu">
+                    <img src="./assets/img/menu/menu.svg" />
+                </div>
+                <div><!--logo-->
+                    <img class="logo" src="./assets/img/menu/logo.svg" />
+                    <img class="iconlogo" src="./assets/img/menu/Iconlogo.svg" />
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="./index.html">Home</a> </li>
+                        <li><a href="./shop.html">Shop</a> </li>
+                        <li><a href="./about.html">About</a> </li>
+                        <li><a href="./contact.html">Contact</a> </li>
+
+                    </ul>
+                </div>
+                <div class="icons">
+                    <ul>
+                        <li class="search"><a href="#"><img src="./assets/img/icons/Search.svg" /> </a> </li>
+                        <li class="avatar"><a href="#"><img src="./assets/img/icons/Avatar.svg" /> </a> </li>
+                        <li class="heart"><a href="#"><img src="./assets/img/icons/Heart.svg" /> </a> </li>
+                        <li class="cart"><a href="./cart.html"><img src="./assets/img/icons/Shopping cart.svg" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="firstrow">
+            <div class="continer">
+                <p class="ft-inter fsize-xs line-h-s mb20-2 mt20-4 weight-300">Home / <span class="weight-700">Shopping
+                        Cart</span></p>
+            </div>
+        </section>
+        <section class="cart_details">
+            <div class="continer">
+                <h3 class="mb20-2 ft-inter fsize-mid weight-500 line-h-m">Cart (3 item)</h3>
+                <table class="cart_table w-100 bord-coll">
+                    <thead>
+                        <tr class="table_head p-bground white w-100">
+                            <th class="trash ptb-3"><img class="d-block m-auto"
+                                    src="./assets/img/cart page/Trash.svg" /></th>
+                            <th class="ptb-3 ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">Photo</th>
+                            <th class="ptb-3 ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">Product
+                            </th>
+                            <th class="ptb-3 ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">Price</th>
+                            <th class="ptb-3 ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">Quanlity
+                            </th>
+                            <th class="ptb-3 ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">Subtotal
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="p-color border-botp">
+                            <td
+                                class="danger ptb-3 t-align-mid ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">
+                                x</td>
+                            <td class="ptb-3"> <img id="product_img" class="product_img d-block m-auto"
+                                    src="./assets/img/new arrivals/Porcelain Dinner Plate.webp" />
+                                    <label for="product_img" class="data_label ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s d-hidden">Porcelain Dinner Plate (27cm)</label></td>
+                            <td
+                                class=" productname t-align-mid ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">
+                                Porcelain Dinner Plate (27cm)</td>
+                            <td class="ptb-3 t-align-mid ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">
+                               <label class="data_label d-hidden">Price:</label> $59</td>
+                            <td class="ptb-3 t-align-mid"><label for="quantity" class="data_label ft-inter l-space-s t_transformer line-h-xs weight-500 fsize-xs d-hidden">Quanlity:</label>
+                                <div id="quantity" class="quantity w-fit m-auto d-flex border-pcol align-center gp20-2 ">
+                                    <button class="t-align-mid trans border_non bg-non point pl-2">-</button>
+                                    <span
+                                        class="p-color ft-inter l-space-s t_transformer line-h-xs weight-500 fsize-xs bg-non">2</span>
+                                    <button class="trans border_non bg-non point pr-2">+</button>
+                                </div>
+                            </td>
+                            <td
+                                class="ptb-3 t-align-mid ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s lightorang">
+                               <label class="data_label p-color d-hidden">Subtotal:</label> $98</td>
+                        </tr>
+                        <tr class="p-color border-botp">
+                            <td
+                                class="danger ptb-3 t-align-mid ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">
+                                x</td>
+                            <td class="ptb-3"><img id="product_img" class="product_img d-block m-auto"
+                                    src="./assets/img/new arrivals/Vase.webp" /> <label for="product_img" class="data_label ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s d-hidden">Ophelia Matte Natural Vase</label></td>
+                            <td
+                                class="productname ptb-3 t-align-mid ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">
+                                Ophelia Matte Natural Vase</td>
+                            <td
+                                class="ptb-3 t-align-mid ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">
+                                <label class="data_label d-hidden">Price:</label> $68</td>
+                            <td class="ptb-3 t-align-mid"> <label for="quantity" class="data_label ft-inter l-space-s t_transformer line-h-xs weight-500 fsize-xs d-hidden">Quanlity:</label>
+                                <div id="quantity" class="quantity w-fit m-auto d-flex border-pcol align-center gp20-2">
+                                    <button class="t-align-mid trans border_non bg-non point pl-2">-</button>
+                                    <span
+                                        class="p-color ft-inter l-space-s t_transformer line-h-xs weight-500 fsize-xs bg-non">1</span>
+                                    <button class="trans border_non bg-non point pr-2">+</button>
+                                </div>
+                            </td>
+                            <td
+                                class="lightorang ptb-3 t-align-mid ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">
+                               <label class="data_label p-color d-hidden">Subtotal</label> $68</td>
+                        </tr>
+                        <tr class="p-color border-botp">
+                            <td
+                                class="danger ptb-3 t-align-mid ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">
+                                x</td>
+                            <td class="ptb-3"><img id="product_img" class="product_img d-block m-auto" 
+                                src="./assets/img/new arrivals/blue Dinner Plate.webp" />
+                                <label for="product_img" class="data_label ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s d-hidden">Porcelain Dinner Plate</label>
+                            </td>
+                            <td
+                                class="productname ptb-3 t-align-mid ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">
+                                Porcelain Dinner Plate</td>
+                            <td
+                                class="ptb-3 t-align-mid ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">
+                                <label class="data_label d-hidden">Price:</label> $70</td>
+                            <td class="ptb-3 t-align-mid"> <label for="quantity" class="data_label ft-inter l-space-s t_transformer line-h-xs weight-500 fsize-xs d-hidden">Quantity:</label>
+                                <div id="quantity" class="quantity w-fit m-auto d-flex border-pcol align-center gp20-2">
+                                    <button class="t-align-mid trans border_non bg-non point pl-2">-</button>
+                                    <span
+                                        class="p-color ft-inter l-space-s t_transformer line-h-xs weight-500 fsize-xs bg-non">1</span>
+                                    <button class="trans border_non bg-non point pr-2">+</button>
+                                </div>
+                            </td>
+                            <td
+                                class="lightorang ptb-3 t-align-mid ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s">
+                                <label class="data_label p-color d-hidden">Subtotal:</label> $70</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section>
+            <div class="continer">
+                <div class="butt_row d-flex align-center justify-between mtb20-2">
+                    <form class="form_row d-flex gp-2 w-40">
+                        <input class="w-60 border-pcol t-align-left pl-2" type="text" name="coupon"
+                            placeholder="Coupon code">
+                        <button
+                            class="trans point ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s w-40 bg-non p-bground white">Apply
+                            Coupon</button>
+                    </form>
+                    <button
+                        class="trans ft-inter fsize-xs t_transformer weight-500 line-h-xs l-space-s point border_non prl-5 bg-non p-bground white">Update
+                        cart</button>
+                </div>
+            </div>
+        </section>
+        <section class="total mb20-4">
+            <div class="continer">
+                <div class="cart_total ft-inter fsize-ss weight-500 line-h-s w-50 p-bground white ml-auto p20-2 d-flex d-direction gp20-2">
+                    <h4>Cart totals</h4>
+                    <div class="totals d-flex d-direction gp-4">
+                        <div class="d-flex justify-between"><span
+                                class="ft-inter line-h-xs weight-500 fsize-s">Subtotal</span><span
+                                class="ft-inter line-h-xs weight-500 fsize-s">$465.00</span></div>
+                        <div class="d-flex justify-between"><span class="ft-inter line-h-xs weight-500 fsize-s">Cart
+                                totals</span><span class="ft-inter line-h-xs weight-500 fsize-s">$500.00</span></div>
+                    </div>
+                    <button
+                        class="trans ptb-3 point p-bground white border-wcol ft-inter line-h-xs l-space-s fsize-xs weight-500">Proceed
+                        to checkout</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="continer">
+            <div class="row">
+                <div class="footer_top">
+                    <div class="Get_started">
+                        <img src="./assets/img/footer/logo white.svg" width="145px" height="38px" />
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma</p>
+                        <a href="#">Get started</a>
+                    </div>
+                    <div class="links">
+                        <div class="link_list">
+                            <h3>About us</h3>
+                            <ul>
+                                <li>Mission</li>
+                                <li>Our team</li>
+                                <li>Awards</li>
+                                <li>Testimonials</li>
+                                <li>Privacy policy</li>
+                            </ul>
+                        </div>
+                        <div class="link_list">
+                            <h3>Services</h3>
+                            <ul>
+                                <li>Web design</li>
+                                <li>Web development</li>
+                                <li>Mobile design</li>
+                                <li>UI/UX design</li>
+                                <li>Branding design</li>
+                            </ul>
+                        </div>
+                        <div class="link_list">
+                            <h3>Portfolio</h3>
+                            <ul>
+                                <li>Corporate websites</li>
+                                <li>E-commerce</li>
+                                <li>Mobile apps</li>
+                                <li>Landing pages</li>
+                                <li>UI/UX projects</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_botom">
+                    <p>Copyright © 2023 Moon| All Rights Reserved | Terms and Conditions | Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

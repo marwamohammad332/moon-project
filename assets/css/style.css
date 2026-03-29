@@ -82,7 +82,7 @@ html {
 
 .cart a::after {
     text-align: center;
-    content: '5';
+    content: '3';
     position: absolute;
     bottom: 14px;
     left: 12px;
@@ -387,7 +387,8 @@ img {
     letter-spacing: 1.3px;
     text-transform: uppercase;
     cursor: pointer;
-    transition: color 1s, background-color 1s; padding: 5px;
+    transition: color 1s, background-color 1s;
+    padding: 5px;
 
 }
 
@@ -1295,4 +1296,71 @@ input[type="checkbox"]{
     }
 }
 
-/*<==========================   =======================>*/
+/*<========================== cart page  =======================>*/
+.trash img{
+width: 20px;
+height: 20px;
+}
+td img{
+    height: 140px;
+    width: 120px;
+}
+.butt_row button{
+    height: 53.33px;
+}
+.butt_row button:hover{
+    opacity: 0.8;
+}
+.cart_total button:hover{
+    opacity: 0.3;
+}
+@media screen and ( min-width:0 ) and ( max-width:700px ){
+   .table_head{
+        display: none;
+    }
+    table , tbody , tr , td{
+        display: block;
+        width: 100%;
+    }
+    .productname{
+        display: none;
+    }
+    .data_label {
+        display: block;
+    }
+    td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cart_table tbody tr{
+        display: flex;
+        flex-direction: column;
+    }
+    .quantity , .product_img{
+        margin:0;
+    }
+    .form_row ,.butt_row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .form_row button {
+        width: 100%;
+    }
+    .form_row input{
+        width: 100%;
+    }
+    .butt_row button{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .cart_total{
+        width: 100%;
+    }
+}
+
+@media screen and ( min-width:701px ) and ( max-width:900px ){
+   .continer{
+    width: 90%;
+   }
+}

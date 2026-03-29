@@ -54,8 +54,17 @@ a{
 input{
     border: none;
 }
+.dsg{
+    object-fit: contain;
+}
 .border_non{
     border: none;
+}
+.bord-coll{
+    border-collapse:collapse;
+}
+.bord-sep{
+    border-collapse:separate;
 }
 .border-rad-1{
     border-radius: 10px;
@@ -414,6 +423,15 @@ flex-direction:column-reverse;
 }
 .m-auto{
     margin: 0 auto;
+}
+.mt-auto{
+    margin-top: auto;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.ml-auto{
+    margin-left: auto;
 }
 .mt-1{
     margin-top: var(--spacer);
@@ -993,6 +1011,9 @@ background-color: var(--primarycolor);
 }
 .vh-min-25{
     min-height: 25vh;
+}
+.w-fit{
+    width: fit-content;
 }
 .w-100{
     width: 100%;
