@@ -549,22 +549,22 @@ img {
 
 .about .row {
     display: grid;
-    grid-template-columns: repeat(2, minmax(310px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .aboutus {
-    height: 350px;
     text-align: center;
+    max-height: 296px;
 }
 
 .aboutus div {
-    height: 100%;
+    max-height: 100%;
 }
 
-.aboutus img {
+.firstimg1 {
     height: 100%;
-    object-fit: cover;
-    display: block;
+    aspect-ratio: 1.55 / 1;
+    object-fit:cover;
 }
 
 @media screen and (min-width:0) and (max-width:699px) {
