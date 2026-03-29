@@ -568,9 +568,9 @@ img {
 }
 
 @media screen and (min-width:0) and (max-width:699px) {
-    .introduction h2 {
-        margin-top: 0;
-    }
+   .aboutus .introduction h2 {
+    margin-top: 40px;
+   }
 
     .aboutus .introduction a {
         margin-bottom: 0;
@@ -598,6 +598,10 @@ img {
 
     .lastimg {
         order: 1;
+    }
+    .firstimg1{
+        aspect-ratio: unset;
+         max-height: 300px;
     }
 }
 
